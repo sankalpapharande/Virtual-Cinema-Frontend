@@ -1,6 +1,6 @@
 import { Button, Col, Container, Form, Row } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
-import {getEvent, getEventsForUser, postNewEvent} from "../../core/apiClient";
+import { postNewEvent} from "../../core/apiClient";
 import './CreateStream.scss';
 import {useRef} from "react";
 window.event_id = "";

@@ -1,4 +1,4 @@
-# Cloud Computing and Big Data Project
+# Frontend of Cloud Computing and Big Data Project
 
 Developed a web application with scalable AWS cloud services & socket to provide an interactive video watching experience
 

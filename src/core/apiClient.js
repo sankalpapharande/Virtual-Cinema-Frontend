@@ -1,7 +1,5 @@
 import axios from "axios";
-import Cookies from "js-cookie";
 import config from "../config";
-import { useNavigate } from 'react-router-dom';
 
 const token = window.localStorage.getItem("jwt");
 

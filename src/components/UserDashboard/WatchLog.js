@@ -1,5 +1,4 @@
 import { Card, Col, Container, Row, Button } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getMessagesForEvent} from "../../core/apiClient";
 import "./WatchLog.scss";
