@@ -7,11 +7,6 @@ class PlaybackSocketConnectionHandler {
     this.socket.on("video-sync", (e) => seekHandler(e));
     this.socket.on("disconnect", () => this.disconnect());
     this.socket.on("connect_error", (e) => this.handleConnectionError(e));
-
-    // USED FOR TESTING
-    // this.socket.onAny((event, ...args) => {
-    //   console.log(event, args);
-    // });
   }
 
   handleVideoSync(v) {
